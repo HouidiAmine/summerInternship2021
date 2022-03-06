@@ -1,0 +1,156 @@
+
+.quote-wrapper {
+    height: 30px;
+    position: relative;
+    width: 30px;
+    background-image: url("src/image/bell.png");
+  }
+  .text {
+  
+    height: 100%;
+    width: 100%;
+    color: red;
+    position: relative;
+    margin: 0;
+  }
+  .text p {
+    font-size: 21px;
+    font-style: italic;
+    height: 100%;
+    line-height: 1.25;
+    padding: 0;
+    text-align: center;
+    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+  }
+  .text::before {
+    content: "";
+    float: left;
+    height: 100%;
+    width: 50%;
+    shape-outside: polygon(
+      0 0,
+      98% 0,
+      50% 6%,
+      23.4% 17.3%,
+      6% 32.6%,
+      0 50%,
+      6% 65.6%,
+      23.4% 82.7%,
+      50% 94%,
+      98% 100%,
+      0 100%
+    );
+    shape-margin: 7%;
+  }
+  
+  
+  
+.heading-site{
+text-align: center;
+font-family: 'Montserrat',sans-serif;
+}
+.header{
+width:100%;
+margin-left:0;
+margin-right:0;
+height:70px;
+line-height: 70px;
+background-color:rgb(0,0,0,0.15) ;
+position: fixed;
+top:0px;
+z-index:999;
+
+}
+.header .header-logo{
+
+color:white;
+font-family:sans-serif;
+font-size:30px;
+float:left;
+
+}
+.header .header-menu{
+
+ float:right;
+    margin-right: 30px;
+}
+.header .header-menu a{
+
+margin-right: 15px;
+color :white;
+
+}
+
+.header .header-menu a:hover{
+color: #3498db;
+}
+
+
+.banner
+{
+    margin-top: -20px;
+}
+.banner .banner-image{
+
+position: relative;
+
+}
+.banner .banner-content{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:30%;
+}
+.banner .banner-content h1,.banner .banner-content h2{
+color:white;
+
+
+}
+.about .about-single-element .icon{
+
+    font-size:3opx;
+    text-align:center;
+}
+.about .about-single-element{
+    text-align:center;
+}
+.about .about-single-element p{
+
+text-align:left;
+margin-top:20px;
+
+}
+.footer .footer-informations{
+
+text-align: center;
+margin-top:30px;
+
+}
+.footer .footer-informations ul{
+
+padding: 0;
+}
+
+.footer .footer-informations ul li{
+ display:inline-block;
+ list-style-type: none;
+
+}
+.tile is-parent .tile is-child notification is-info{
+background-image: url("src/image/gene");
+
+}
+/*css responsive*/
+@media screen and (max-width: 600px){
+  #open-modal {
+        display:none;
+            }
+  #bienvenu{
+   font-size:40px;
+
+
+  }
+
+
+
+}
